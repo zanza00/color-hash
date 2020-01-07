@@ -22,23 +22,22 @@
     "url": "https://github.com/zanza00/color-hash/issues"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
-    "@commitlint/config-conventional": "^8.2.0",
-    "@commitlint/travis-cli": "^8.2.0",
+    "@commitlint/cli": "^8.3.4",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/travis-cli": "^8.3.4",
     "@types/jest": "^24.0.23",
     "@types/node": "^12.12.17",
     "@types/string-hash": "^1.1.1",
     "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "3.0.2",
-    "husky": "^3.1.0",
+    "husky": "^4.0.0",
     "jest": "^24.9.0",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
-    "semantic-release": "^15.13.31",
+    "semantic-release": "^15.14.0",
     "string-hash": "^1.1.3",
     "ts-jest": "^24.2.0",
     "tslib": "^1.10.0",
-    "typescript": "^3.7.3"
+    "typescript": "^3.7.4"
   },
   "config": {
     "commitizen": {
@@ -55,5 +54,8 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "resolutions": {
+    "conventional-commit-types": "^3.0.0"
   }
 }
